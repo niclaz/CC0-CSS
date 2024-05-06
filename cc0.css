@@ -1,0 +1,63 @@
+/* v0.1 of the CC0-CSS stylesheet - source: https://github.com/niclaz/CC0-CSS */
+
+/* >>> ADD YOUR WEBSITE FONTS BELOW */
+
+/* major-mono-display-regular - latin */
+@font-face {
+	font-family: 'Major Mono Display';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/major-mono-display-v13-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/major-mono-display-v13-latin-regular.eot?#iefix') format('embedded-opentype'), 
+		 url('/fonts/major-mono-display-v13-latin-regular.woff2') format('woff2'), 
+		 url('/fonts/major-mono-display-v13-latin-regular.woff') format('woff'), 
+		 url('/fonts/major-mono-display-v13-latin-regular.ttf') format('truetype'), 
+		 url('/fonts/major-mono-display-v13-latin-regular.svg#MajorMonoDisplay') format('svg'); /* Legacy iOS */
+}
+
+/* dm-mono-300 - latin */
+@font-face {
+	font-family: 'DM Mono';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/fonts/dm-mono-v11-latin-300.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/dm-mono-v11-latin-300.eot?#iefix') format('embedded-opentype'), 
+		 url('/fonts/dm-mono-v11-latin-300.woff2') format('woff2'), 
+		 url('/fonts/dm-mono-v11-latin-300.woff') format('woff'), 
+		 url('/fonts/dm-mono-v11-latin-300.ttf') format('truetype'), 
+		 url('/fonts/dm-mono-v11-latin-300.svg#DMMono') format('svg'); /* Legacy iOS */
+  }
+  /* dm-mono-regular - latin */
+  @font-face {
+	font-family: 'DM Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/dm-mono-v11-latin-regular.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/dm-mono-v11-latin-regular.eot?#iefix') format('embedded-opentype'), 
+		 url('/fonts/dm-mono-v11-latin-regular.woff2') format('woff2'), 
+		 url('/fonts/dm-mono-v11-latin-regular.woff') format('woff'), 
+		 url('/fonts/dm-mono-v11-latin-regular.ttf') format('truetype'), 
+		 url('/fonts/dm-mono-v11-latin-regular.svg#DMMono') format('svg'); /* Legacy iOS */
+  }
+  /* dm-mono-500 - latin */
+  @font-face {
+	font-family: 'DM Mono';
+	font-style: normal;
+	font-weight: 500;
+	src: url('/fonts/dm-mono-v11-latin-500.eot'); /* IE9 Compat Modes */
+	src: url('/fonts/dm-mono-v11-latin-500.eot?#iefix') format('embedded-opentype'), 
+		 url('/fonts/dm-mono-v11-latin-500.woff2') format('woff2'), 
+		 url('/fonts/dm-mono-v11-latin-500.woff') format('woff'), 
+		 url('/fonts/dm-mono-v11-latin-500.ttf') format('truetype'), 
+		 url('/fonts/dm-mono-v11-latin-500.svg#DMMono') format('svg'); /* Legacy iOS */
+  }
+
+/* FOUNDATIONAL CSS */
+
+/* >>> It is advised to not edit these classes unless you absolutely want the change to be reflected site-wide */
+/* >>> Want to make a specific change? Copy the foundation CSS and Create a new class in the next section of CSS */
+
+
+/* CUSTOM CSS */
+/* >>> Create your or own or copy the foundation CSS to make new custom classes for your website */
+
