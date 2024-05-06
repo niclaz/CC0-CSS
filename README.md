@@ -1,54 +1,54 @@
-# events_web
+# CC0-CSS
 
-Public repository of the code for web3privacy events webpages -  built with simple web-standard HTML and CSS
+Public repository for a Creative Commons Zero **CCO** licensed Cascading Style Sheet **CCS** to be used by anyone for simple one-page event websites.
 
-**Please advise** at this time this code is currently being worked on for the Web3Privacy Summit 2 website
+**Why?**
+
+_I was getting annoyied at not being able to fully open source my webdev projects since many of the mainstream CSS frameworks are either closed-source or leverage a MIT/GPL license. Philosophically there is nothing wrong with these licenses, but since I could not find a CC0 licensed CSS framework... I coded it myself._
+
+This repository uses HTML, images, and content from the [Web3Privacy Summit #2](https://github.com/web3privacy/events_web) as a sample content to test the new CSS code being written.
+
+**Please advise** this code is still in development - do not use in production until v 1.0.
 
 ## CONTENTS
 
-- [ ] /fonts/            =  folder that holds all the fonts used by the website
-- [ ] /img/              =  folder that holds all images used by the website
-- [ ] index.html         =  what-you-code-is-what-you-get HTML
-- [ ] w3pevent.css       =  CSS file for index.html (needs refinement) - based off [Tailwind CSS](https://tailwindcss.com/)
+- [ ] /fonts/            =  folder that holds all the fonts used by the website (referenced in CSS)
+- [ ] /img/              =  folder that holds all images used by the sample website
+- [ ] index.html         =  what-you-code-is-what-you-get HTML (CCO licensed)
+- [ ] cc0.css            =  CSS file for index.html
 - [ ] favion.png         =  website favicon (should be placed in main folder of hosting)
 
 ## COMMENTS
 
-- This repository is automatically deployed on Github Pages and has it's own custom subdomain: [summit.web3privacy.info](https://summit.web3privacy.info/)
-- If you see something broken or needs improving, **fork the repo and submit a PR pleas**e
+- If you see something broken or needs improving, **fork the repo and submit a PR please**
 - If you wish to request a new feature or improvements, open an **issue within this repo please**
-- All images used within the website should be in .png / .svg / .webp formats
-- To change an image on the website you need to either replace the file in /img/ with one named exactly as it is online (i.e. privacy.png)
-- To add a new image you need to edit the index.html to point to it and then add the actual to the /img/ folder in this repository with the same filename.
 
 ## RELEASES
 
-- [v 0.9.5 - w3ps2 website pre-UX redesign](https://github.com/web3privacy/events_web/releases/tag/w3ps2)
-- [v 1.0.0 - w3ps2 website new-design](https://github.com/web3privacy/events_web/releases/tag/v1.0.0)
+- Alpha
  
 
 ## TO DO 
 
-- [x] import files into repository
-- [x] deploy on dev instance server
-- [x] Deploy to Github Pages
-- [x] create subdomain on web3privacy.info
-- [x] test live website code - all images and links, etc
-- [x] test deployment Actions and automations in Github
-- [x] launch for web3privacy summit 2
-- [ ] post-summit make code in this repo into a template for future events
+- [x] Fork code and create new repository
+- [x] strip all CSS from w3psummit.css and rename it to cc0.css
+- [ ] code monkey, code!
+- [ ] testing and refinement
+- [ ] deploy new CSS on a hosting provider/VPS (using content from web3privacy summit)
+- [ ] testing and refinement
+- [ ] review of codebase
+- [ ] ensure that this is 'clean code' and understandable by any novice webdev
+- [ ] write docs?
+- [ ] improve comments in code
+- [ ] publish v 1.0
 
-
-## FEATURE REQUESTS
-
-- [ ] donation mechanism coded into website
-- [ ] the 'ciphertext' js animation used in [2022 summit webpage](https://prague22.web3privacy.info/)
-- [ ] new CSS written from scratch (w3pevent.css)
 
 ## LICENSE
 
-All HTML is licensed [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
+All the HTML code is licensed [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
-The CSS used leverages TailwindCSS which is licensed under [MIT](https://github.com/tailwindlabs/tailwindcss/blob/next/LICENSE)
+The new CSS is licensed under [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 
 Please note that even though the code is open-sourced - the names, content, and images within may well have their own licenses from their respective owners.
+
+What you do with this code is none of my interest.
